@@ -2,7 +2,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 import pickle
 import os
-from src.evaluate import evaluate_model
+from src.evaluate import evaluate_model, save_metrics
 
 def train_model(X, y):
     # Split data
@@ -15,7 +15,8 @@ def train_model(X, y):
     y_pred = model.predict(X_test)
 
     # Evaluate
-    evaluate_model(y_test, y_pred)
+    mae, mse, r2 = evaluate_model(y_test, y_pred)
+    save_metrics(mae, mse, r2)
 
     # Save model
     os.makedirs("models", exist_ok=True)

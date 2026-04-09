@@ -1,4 +1,7 @@
 venv/
 __pycache__/
+*.pkl
 *.pyc
-models/*.pkl
+.env
+models/
+reports/
