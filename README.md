@@ -22,43 +22,43 @@ An end-to-end Machine Learning web application that predicts house prices using 
 ### 🔮 Predict Price
 Enter house features — area, bedrooms, bathrooms, amenities — and get an instant predicted price with an input summary chart.
 
-![Predict Tab](screenshots/Predict_tab1.png)
+![Predict Tab](Screenshots/Predict_tab1.png)
 
 ---
 
 ### 🚀 Train Model
 Upload your dataset, preview encoded data, choose an algorithm, and train with one click. Metrics appear immediately after training.
 
-![Train Tab - Upload and Preview](screenshots/Train_tab1.png)
+![Train Tab - Upload and Preview](Screenshots/Train_tab1.png)
 
-![Train Tab - Encoding Info](screenshots/Train_tab2.png)
+![Train Tab - Encoding Info](Screenshots/Train_tab2.png)
 
-![Train Tab - After Training](screenshots/Train_tab3.png)
+![Train Tab - After Training](Screenshots/Train_tab3.png)
 
 ---
 
 ### 📊 Metrics (Evaluate)
 View MAE, MSE, RMSE, and R² score with an Actual vs Predicted scatter plot and Residuals Distribution histogram.
 
-![Evaluate Tab - Metrics](screenshots/Evaluate_tab1.png)
+![Evaluate Tab - Metrics](Screenshots/Evaluate_tab1.png)
 
-![Evaluate Tab - Residuals](screenshots/Evaluate_tab2.png)
+![Evaluate Tab - Residuals](Screenshots/Evaluate_tab2.png)
 
 ---
 
 ### ⚡ Compare Algorithms
 Run all 6 algorithms at once and rank them by R² score. The best model is highlighted automatically.
 
-![Compare Tab](screenshots/Compare_tab1.png)
+![Compare Tab](Screenshots/Compare_tab1.png)
 
 ---
 
 ### 🔍 Data Explorer
 Interactive statistical summary, missing value checker, distribution plots, price vs feature scatter, and a correlation heatmap.
 
-![Explore Tab - Stats and Distributions](screenshots/Explore_tab1.png)
+![Explore Tab - Stats and Distributions](Screenshots/Explore_tab1.png)
 
-![Explore Tab - Correlation Heatmap](screenshots/Explore_tab2.png)
+![Explore Tab - Correlation Heatmap](Screenshots/Explore_tab2.png)
 
 ---
 
